@@ -1,0 +1,28 @@
+{
+  "name": "bs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx webpack",
+    "start": "npx webpack serve --config webpack.config.js"
+  },
+  "author": "yinyicao",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@popperjs/core": "^2.11.0",
+    "bootstrap": "^5.1.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.5.1",
+    "html-loader": "^3.0.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.5",
+    "node-sass": "^6.0.1",
+    "postcss-loader": "^6.2.1",
+    "sass-loader": "^12.3.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  }
+}
